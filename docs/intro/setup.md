@@ -12,6 +12,8 @@ The source code can be found at <https://github.com/apache/age>
 
 ## Pre-Installation
 
+In order to use AGE, you must first install Postgre DB version 11 or 12, since the apache AGE works as an extension of Postgre DB.
+
 Install the following essential libraries according to each OS.
 Building AGE from source depends on the following Linux libraries (Ubuntu package names shown below):
 
@@ -35,7 +37,7 @@ sudo apt-get install build-essential libreadline-dev zlib1g-dev flex bison
 
 ## Installation
 
-Clone the github repo into any directory
+To get started, clone the above AGE github repo into a new directory.
 
 Run the pg_config utility and check the version of PostgreSQL, currently only PostgreSQL versions 11 & 12 are supported. If you have any other version of postgres, you will need to install PostgreSQL version 11 & 12. Follow Setting up multiple versions of PostgreSQL
 ```console
